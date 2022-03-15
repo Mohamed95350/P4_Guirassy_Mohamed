@@ -12,15 +12,24 @@ body {
     margin-right: 0px!important;
 }
 
+.content-nav{
+    padding-right: 0!important;
+    padding-left: 0!important;
+    padding-bottom: 0!important;
+}
 .navbar-header,
 .navbar.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 8px;
 }
 
 li {
     list-style: none;
+}
+.btn-block{
+    color: white!important;
 }
 
 .form-group {
@@ -487,6 +496,11 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: white!important;
+}
+
+#bloc-4-portfolio img{
+    width: 100%;
 }
 
 .icon-lg {
@@ -786,7 +800,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #232323!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -925,6 +939,8 @@ h4 {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+        display: block;
+        margin-bottom: 0;
     }
     .site-navigation {
         position: inherit;
