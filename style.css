@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.row {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
 .navbar-header,
 .navbar.row {
     display: flex;
@@ -754,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(85 78 58 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -781,7 +786,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #232323!important;
 }
 
 .btn-atomic-tangerine:hover {
