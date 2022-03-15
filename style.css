@@ -500,7 +500,9 @@ button {
 }
 
 #bloc-4-portfolio img{
-    width: 100%;
+   width: 400px;
+   height: 400px;
+   display:inline-block;
 }
 
 .icon-lg {
@@ -1063,5 +1065,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    #bloc-4-portfolio img{
+        height: 200px;
     }
 }
