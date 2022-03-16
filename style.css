@@ -119,7 +119,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #141414!important;
 }
 
 .d-bloc button:hover {
@@ -214,7 +214,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: #212121;
 }
 
 .d-bloc .panel button:hover,
@@ -496,7 +496,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
-    color: white!important;
+    color: #141414!important;
 }
 
 #bloc-4-portfolio img{
@@ -671,13 +671,16 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 700;
     color: #575757!important;
+}
+
+p.text-center.white-2{
+    color:#ffffff
 }
 
 .hero-bloc-text {
@@ -757,8 +760,8 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.white-1 {
+    color: #141414!important;
 }
 
 .portfolio-thumb {
